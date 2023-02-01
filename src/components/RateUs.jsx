@@ -25,35 +25,35 @@ const RateUs = ({ setRating }) => {
         </span>
         <div className="flex justify-around">
           <button
-            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 active:bg-gray-400"
+            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 focus:bg-gray-400"
             type="button"
             onClick={() => handleRatingChange(1)}
           >
             1
           </button>
           <button
-            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 active:bg-gray-400"
+            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 focus:bg-gray-400"
             type="button"
             onClick={() => handleRatingChange(2)}
           >
             2
           </button>
           <button
-            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 active:bg-gray-400"
+            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 focus:bg-gray-400"
             type="button"
             onClick={() => handleRatingChange(3)}
           >
             3
           </button>
           <button
-            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 active:bg-gray-400"
+            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 focus:bg-gray-400"
             type="button"
             onClick={() => handleRatingChange(4)}
           >
             4
           </button>
           <button
-            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 active:bg-gray-400"
+            className="flex h-12 w-12 items-center justify-center bg-[#272F37] p-2 rounded-full hover:bg-orange-500 focus:bg-gray-400"
             type="button"
             onClick={() => handleRatingChange(5)}
           >
